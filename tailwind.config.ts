@@ -9,8 +9,18 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        brand: {
+          red: "#BA1A1A",
+          yellow: "#FFC639",
+          black: "#111111",
+        },
+      },
+      borderRadius: {
+        DEFAULT: "0.5rem",
+        full: "9999px",
+      },
+      fontFamily: {
+        sans: ["var(--font-inter)", "sans-serif"],
       },
     },
   },
