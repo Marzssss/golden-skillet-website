@@ -56,6 +56,15 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
+            <div className="mt-8 border-t border-gray-800 pt-6 text-center">
+                <p className="text-sm text-gray-400">
+                    website designed by{" "}
+                    <span className="inline-block bg-gradient-to-r from-red-500 via-orange-500 via-yellow-500 via-green-500 via-blue-500 via-indigo-500 to-purple-500 bg-clip-text text-transparent font-semibold">
+                        innovation
+                    </span>{" "}
+                    7
+                </p>
+            </div>
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
